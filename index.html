@@ -14,6 +14,7 @@
   </head>
   <body>
 
+    <!-- Logo en la Cabecera y menu de opciones-->
     <header class="header">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
@@ -36,7 +37,8 @@
             </div>
           </nav>
     </header>
-
+    
+    <!-- programacion de carrusel de imagenes-->
     <div id="idcarrusel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#idcarrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -64,33 +66,62 @@
         </button>
       </div>
 
-
-      <div class="card" style="width: 18rem;">
-        <img src="img/carnet_michi1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Atun</h5>
-          <p class="card-text">Este lokito es desordenado es weno pa vacilar en las noches pero es un gato cariñoso.</p>
-          <a href="#" class="btn btn-primary">Ver al Atun</a>
+    <!-- Caja de imagenes -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/carnet_michi1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Atun</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/carnet_michi2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Luna</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/carnet_michi3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asesino</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="img/carnet_michi1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Atun</h5>
-          <p class="card-text">Este lokito es desordenado es weno pa vacilar en las noches pero es un gato cariñoso.</p>
-          <a href="#" class="btn btn-primary">Ver al Atun</a>
-        </div>
-      </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="img/carnet_michi1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Atun</h5>
-          <p class="card-text">Este lokito es desordenado es weno pa vacilar en las noches pero es un gato cariñoso.</p>
-          <a href="#" class="btn btn-primary">Ver al Atun</a>
-        </div>
-      </div>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">CONTACTANOS</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">CONTACTO</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
